@@ -24,6 +24,7 @@ repositories {
 extra["springCloudVersion"] = "Hoxton.SR6"
 
 dependencies {
+	implementation("org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j")
 	implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
 	implementation("org.springframework.cloud:spring-cloud-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
